@@ -1,0 +1,10 @@
+name: devops
+email: team-devops-dev@company.com
+ou: workloads
+owner: effulgencetech
+environment: dev
+
+group: devops
+
+permission_sets:
+  - PowerUserAccess 

@@ -1,0 +1,5 @@
+name: payments-prod
+email: payments-prod@company.com
+ou: workloads
+owner: payments-team
+environment: prod

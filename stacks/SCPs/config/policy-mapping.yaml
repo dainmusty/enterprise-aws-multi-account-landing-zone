@@ -1,0 +1,10 @@
+sandbox-restrictions.json: sandbox
+security-restrictions.json: security
+infra-restrictions.json: infra
+
+deny-public-s3.json: workloads
+deny-cloudtrail-disable.json: workloads
+deny-root-user.json: workloads
+enforce-ebs-encryption.json: workloads
+enforce-mandatory-tags.json: workloads
+cost-control.json: sandbox

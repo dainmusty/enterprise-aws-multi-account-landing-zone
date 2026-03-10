@@ -35,3 +35,8 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Ignore files containing provider-specific metadata, which may contain sensitive information
+*.metadata.xml
+
+*.txt

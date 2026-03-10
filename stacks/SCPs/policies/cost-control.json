@@ -1,0 +1,17 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "DenyExpensiveServices",
+      "Effect": "Deny",
+      "Action": [
+        "ec2:PurchaseReservedInstancesOffering",
+        "ec2:RequestSpotInstances",
+        "redshift:*",
+        "elasticmapreduce:*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+

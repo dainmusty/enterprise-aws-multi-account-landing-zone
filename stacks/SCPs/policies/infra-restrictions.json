@@ -1,0 +1,15 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "DenyWorkloadResources",
+      "Effect": "Deny",
+      "Action": [
+        "ec2:RunInstances",
+        "eks:CreateCluster",
+        "lambda:CreateFunction"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

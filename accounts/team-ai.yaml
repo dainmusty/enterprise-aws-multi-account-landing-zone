@@ -1,0 +1,10 @@
+name: ai-prod
+email: ai-prod@company.com
+ou: workloads
+owner: ai-team
+environment: prod
+
+group: ai-admins
+
+permission_sets:
+  - AdministratorAccess
